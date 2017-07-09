@@ -9,6 +9,7 @@ img{
 	max-width: 100%;
 }
 .bg{
+	
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -263,5 +264,11 @@ img{
 
 	100%{
 		-moz-transform:scale(.3);
+	}
+}
+@media only screen and (max-width: 991px) and(min-width: 768px){
+	.btn-cate{
+		padding: 10px 20px;
+		min-width: 150px!important;
 	}
 }

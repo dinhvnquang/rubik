@@ -1,5 +1,8 @@
 #footer{
 	padding-top: 20px;
+	h3{
+		text-align: center;
+	}
 	.left-footer{
 		.logo{
 			padding-bottom: 20px;
@@ -35,6 +38,7 @@
 	}
 	ul{
 		text-align: center;
+		padding-left: 0;
 	}
 	li{
 		display: inline-block;
@@ -58,4 +62,37 @@
 			padding-top: 10px;
 		}
 	}
+}
+@media only screen and (max-width: 991px) and(min-width: 768px){
+#footer .left-footer p {
+    font-size: 14px;
+}
+#footer{
+	h3{
+		text-align: center;
+		font-size: 19px;
+	}
+}
+#footer .form-group a {
+    padding: 0 15px;
+}
+}
+
+@media only screen and (max-width: 767px){
+.sec-cate .item-center {
+    height: 227px;
+    position: relative;
+}
+#footer .end-footer p {
+    text-align: center;
+    span{
+    	display: block;
+    }
+}
+#footer .fanpage {
+    text-align: center;
+}
+.left-footer{
+	text-align: center;
+}
 }

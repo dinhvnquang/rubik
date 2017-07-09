@@ -15,7 +15,7 @@ export default class Footer extends React.Component{
 			<div className="col-sm-3">
 			<div className = "left-footer">
 			<div className="logo">
-			<Link to={'#'}><img src="http://i1266.photobucket.com/albums/jj538/dinhvnquang/logo_zpsitig39af.png" alt="" /></Link>
+			<Link to={'#'}><img src="http://i1266.photobucket.com/albums/jj538/dinhvnquang/LASTEST-01_zpsymk9eoks.png" alt="" /></Link>
 			</div>
 			<p><i className="fa fa-home" aria-hidden="true"></i> rubiknhatrang.com</p>
 			<p><i className="fa fa-phone" aria-hidden="true"></i> 21121212</p>
@@ -48,7 +48,7 @@ export default class Footer extends React.Component{
 			</div>
 			<div className="end-footer">
 			<div className="container">
-			<p>Coppyright  © RubikNhaTrang 2017. Design by LokaTech.</p>
+			<p>Coppyright  © RubikNhaTrang 2017. <span>Design by <a style={{color: '#fff',textDecoration: 'underline'}} target="blank" href="http://lokatech.net/">LokaTech.</a></span></p>
 			</div>
 			</div>
 			</div>

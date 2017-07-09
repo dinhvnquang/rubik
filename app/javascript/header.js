@@ -53,8 +53,19 @@ function showProduct(){
 		}.bind(this));
 	});
 }
+function menuMobile(){
+	$('.menu-control').click(function() {
+		if($('#header').hasClass('active-menu')){
+			$('#header').removeClass('active-menu');
+		}
+		else{
+			$('#header').addClass('active-menu');
+		}
+	});
+}
 export {Search}
 export {removeSearch}
 export {PinHeader}
 export {PinTop}
 export {showProduct}
+export {menuMobile}

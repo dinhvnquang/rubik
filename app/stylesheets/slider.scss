@@ -20,3 +20,31 @@
 .slick-dots{
 	bottom :13px;
 }
+
+@media only screen and (max-width: 991px){
+.item-slider {
+    height: 400px;
+}
+.item-slider-new {
+    padding: 20px 0;
+}
+}
+@media only screen and (max-width: 767px){
+.item-slider {
+    height: 400px;
+}
+.item-slider-new {
+    padding: 20px 0;
+}
+.slick-slide img {
+    width: 100%;
+}
+.slick-slide h3{
+    padding-top: 30px;
+}
+}
+@media only screen and (max-width: 400px){
+.item-slider-new h3:after {
+    width: 180px;
+}
+}
