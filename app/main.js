@@ -7,6 +7,9 @@ import App from './components/app'
 import {client} from './reducers/index'
 import { Provider } from 'react-redux'
 import Home from './components/home/Home.jsx';
+import DetailProduct from './components/product/detailProduct.jsx';
+import Cart from './components/product/cart.jsx';
+import Checkout from './components/product/checkout.jsx';
 import './stylesheets/setting.scss'
 import './stylesheets/custom.scss'
 import './stylesheets/header.scss'
@@ -19,6 +22,9 @@ ReactDOM.render(
     <Router history={history}>
       <Route path="/" component={App}>
         <IndexRoute component={Home}/>
+        <Route path="/chitiet" component={DetailProduct} />
+        <Route path="/giohang" component={Cart} />
+        <Route path="/thanhtoan" component={Checkout} />
       </Route>
     </Router>
   </Provider>

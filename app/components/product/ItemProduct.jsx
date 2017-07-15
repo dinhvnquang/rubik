@@ -6,7 +6,6 @@ super(props);
 }
 render(){
 return(
-
 <div className="col-sm-3 col-xs-6">
 	<div className="item-product">
 		<div className="box-item">
